@@ -1,0 +1,1301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+body{
+    font-family: 'Poppins', 'Sans-serif';
+}
+
+.navbar{
+    position: fixed;
+    display: inline-block;
+    justify-content: space-between;
+    list-style: none;
+    background: rgb(28,9,87);
+    background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+    width: 100%;
+    height: 14vh;
+    text-align: right;
+    top: 0;
+    z-index: 10;
+}
+.navbar .logo{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    color: cyan;
+    font-size: 27px;
+    width: 130px;
+    height: 98px;
+}
+
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: cyan;
+    margin: 10px;
+    top: 40px; 
+    right: 30px;
+    font-size: 18px;
+    
+}
+.navbar a:hover{
+    color: black;
+}
+
+
+.introduction{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 142vh;
+    background-color: black;
+    color: black;
+    text-align: center;   
+
+}
+
+.text{
+    position: relative;
+    top: 400px;
+    color: whitesmoke;
+       
+}
+
+.text h1{
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+.ptext{
+    margin: 40px;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+.about{
+    position: relative;
+    background: rgb(28,9,87);
+background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+    width: 100%;
+    height: 332vh;
+    top: 1000px;
+    
+}
+
+.images{
+    position: absolute;
+    right: 60px;
+    top:150px;
+}
+
+.images img{
+    transition: bottom 1s, right 1s;
+}
+.shape{
+    right: 20px;
+    position: relative;
+    top: 255px;
+    height: 550px;
+}
+.images:hover .shape{
+    right: 100px;
+}
+
+.pic{
+    position: absolute;
+    right: 110px;
+    bottom: -120px;
+    width: 390px;
+    height: auto;
+}
+
+.images:hover .pic{
+    bottom: 100px;
+}
+
+.about .info{
+    position: absolute;
+    top: 350px;
+    text-align: left;
+    left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightblue;
+    text-align: left;
+}
+.about .name{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    
+}
+.about .skills{
+    font-size: 2.4rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.about .list{
+    font-size: 1.7rem;
+    
+}
+.abt{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.background{
+    position: absolute;
+    top: 1300px;
+    color: lightblue;
+    font-size: 1.7rem;
+    left: 20px;
+    text-align: center;
+    
+}
+.background p{
+    margin: 30px;
+}
+
+
+.break{
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-left:  20px;
+}
+.background li{
+    font-weight: bolder;
+    color: lightblue;
+    margin: 20px;
+}
+.projects{
+    position: absolute;
+    top:3300px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(14,20,59);
+background: linear-gradient(90deg, rgba(14,20,59,1) 30%, rgba(11,26,57,1) 91%);
+    text-align: center;
+}
+.projects h1{
+    position: relative;
+    color: whitesmoke;
+    top: 150px;
+}
+.listt{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    list-style: none;  
+}
+.listt a{
+    color: cyan;
+    list-style: none;
+    text-decoration:none;
+    margin-right: 30px;
+    font-size: 2rem;
+}
+.listt a:hover{
+    color: pink;
+}
+
+.list2 h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.list2 li{
+    position: relative;
+    color: cyan;
+    font-size: 1.5rem;
+    top:200px;
+    
+}
+
+@media (max-width: 1205px) {
+    
+.navbar{
+    position: fixed;
+    display: inline-block;
+    justify-content: space-between;
+    list-style: none;
+    background: rgb(28,9,87);
+    background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+    width: 100%;
+    height: 14vh;
+    text-align: right;
+    top: 0;
+    z-index: 10;
+}
+.navbar .logo{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    color: cyan;
+    font-size: 27px;
+    width: 130px;
+    height: 90px;
+}
+
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: cyan;
+    margin: 10px;
+    top: 40px; 
+    right: 30px;
+    font-size: 18px;
+    
+}
+.navbar a:hover{
+    color: black;
+}
+
+
+.introduction{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 142vh;
+    background-color: black;
+    color: black;
+    text-align: center;   
+
+}
+
+.text{
+    position: relative;
+    top: 400px;
+    color: whitesmoke;
+       
+}
+
+.text h1{
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+.ptext{
+    margin: 40px;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+.about{
+    position: absolute;
+    background: rgb(28,9,87);
+    background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+    width: 100%;
+    height: 380vh;
+    top: 980px;
+    text-align: center;
+}
+
+.images{
+    position: absolute;
+    right: 275px;
+    top:529px;
+    text-align: center;
+}
+
+.images img{
+    transition: bottom 1s, right 1s;
+}
+.shape{
+    right: 20px;
+    position: relative;
+    top: 255px;
+    height: 550px;
+}
+.images:hover .shape{
+    right: 100px;
+}
+
+.pic{
+    position: absolute;
+    right: 110px;
+    bottom: -120px;
+    width: 390px;
+    height: auto;
+}
+
+.images:hover .pic{
+    bottom: 100px;
+}
+
+.about .info{
+    position:static;
+    margin-top:150px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightblue;
+    
+}
+.info{
+    left: 200px;
+}
+.about .name{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    
+}
+.about .skills{
+    font-size: 2.4rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.about .list{
+    font-size: 1.7rem;
+    
+}
+.abt{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.background{
+    position: absolute;
+    top: 1650px;
+    color: lightblue;
+    font-size: 1.7rem;
+    left: 20px;
+    text-align: center;
+    
+}
+.background p{
+    margin: 30px;
+}
+
+
+.break{
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-left:  20px;
+}
+.background li{
+    font-weight: bolder;
+    color: lightblue;
+    margin: 20px;
+}
+.projects{
+    position: absolute;
+    top:3600px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(14,20,59);
+background: linear-gradient(90deg, rgba(14,20,59,1) 30%, rgba(11,26,57,1) 91%);
+    text-align: center;
+}
+.projects h1{
+    position: relative;
+    color: whitesmoke;
+    top: 150px;
+}
+.listt{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    list-style: none;  
+}
+.listt a{
+    color: cyan;
+    list-style: none;
+    text-decoration:none;
+    margin-right: 30px;
+    font-size: 2rem;
+}
+.listt a:hover{
+    color: pink;
+}
+
+.list2 h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.list2 li{
+    position: relative;
+    color: cyan;
+    font-size: 1.5rem;
+    top:200px;
+    
+}
+}
+
+@media (max-width: 1205px) {
+    
+.navbar{
+    position: fixed;
+    display: inline-block;
+    justify-content: space-between;
+    list-style: none;
+    background: rgb(28,9,87);
+    background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+    width: 100%;
+    height: 14vh;
+    text-align: right;
+    top: 0;
+    z-index: 10;
+}
+.navbar .logo{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    color: cyan;
+    font-size: 27px;
+    width: 130px;
+    height: 90px;
+}
+
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: cyan;
+    margin: 10px;
+    top: 40px; 
+    right: 30px;
+    font-size: 18px;
+    
+}
+.navbar a:hover{
+    color: black;
+}
+
+
+.introduction{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 142vh;
+    background-color: black;
+    color: black;
+    text-align: center;   
+
+}
+
+.text{
+    position: relative;
+    top: 400px;
+    color: whitesmoke;
+       
+}
+
+.text h1{
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+.ptext{
+    margin: 40px;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+.about{
+    position: absolute;
+    background: rgb(28,9,87);
+    background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+    width: 100%;
+    height: 380vh;
+    top: 980px;
+    text-align: center;
+}
+
+.images{
+    position: absolute;
+    right: 275px;
+    top:529px;
+    text-align: center;
+}
+
+.images img{
+    transition: bottom 1s, right 1s;
+}
+.shape{
+    right: 20px;
+    position: relative;
+    top: 255px;
+    height: 550px;
+}
+.images:hover .shape{
+    right: 100px;
+}
+
+.pic{
+    position: absolute;
+    right: 110px;
+    bottom: -120px;
+    width: 390px;
+    height: auto;
+}
+
+.images:hover .pic{
+    bottom: 100px;
+}
+
+.about .info{
+    position:static;
+    margin-top:150px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightblue;
+    
+}
+
+.about .name{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    
+}
+.about .skills{
+    font-size: 2.4rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.about .list{
+    font-size: 1.7rem;
+    
+}
+.abt{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.background{
+    position: absolute;
+    top: 1650px;
+    color: lightblue;
+    font-size: 1.7rem;
+    left: 20px;
+    text-align: center;
+    
+}
+.background p{
+    margin: 30px;
+}
+
+
+.break{
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-left:  20px;
+}
+.background li{
+    font-weight: bolder;
+    color: lightblue;
+    margin: 20px;
+}
+.projects{
+    position: absolute;
+    top:3600px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(14,20,59);
+background: linear-gradient(90deg, rgba(14,20,59,1) 30%, rgba(11,26,57,1) 91%);
+    text-align: center;
+}
+.projects h1{
+    position: relative;
+    color: whitesmoke;
+    top: 150px;
+}
+.listt{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    list-style: none;  
+}
+.listt a{
+    color: cyan;
+    list-style: none;
+    text-decoration:none;
+    margin-right: 30px;
+    font-size: 2rem;
+}
+.listt a:hover{
+    color: pink;
+}
+
+.list2 h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.list2 li{
+    position: relative;
+    color: cyan;
+    font-size: 1.5rem;
+    top:200px;
+    
+}
+}
+@media (max-width: 1205px) {
+    
+    .navbar{
+        position: fixed;
+        display: inline-block;
+        justify-content: space-between;
+        list-style: none;
+        background: rgb(28,9,87);
+        background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+        width: 100%;
+        height: 14vh;
+        text-align: right;
+        top: 0;
+        z-index: 10;
+    }
+    .navbar .logo{
+        position: absolute;
+        left: 0;
+        top: 0px;
+        color: cyan;
+        font-size: 27px;
+        width: 130px;
+        height: 90px;
+    }
+    
+    .navbar a{
+        position: relative;
+        text-decoration: none;
+        color: cyan;
+        margin: 10px;
+        top: 40px; 
+        right: 30px;
+        font-size: 18px;
+        
+    }
+    .navbar a:hover{
+        color: black;
+    }
+    
+    
+    .introduction{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 142vh;
+        background-color: black;
+        color: black;
+        text-align: center;   
+    
+    }
+    
+    .text{
+        position: relative;
+        top: 400px;
+        color: whitesmoke;
+           
+    }
+    
+    .text h1{
+        margin: 20px;
+        margin-bottom: 0;
+        font-size: 2em;
+        font-weight: bolder; 
+    }
+    
+    .ptext{
+        margin: 40px;
+        font-size: 1.4rem;
+        font-weight: lighter;
+    }
+    
+    .about{
+        position: absolute;
+        background: rgb(28,9,87);
+        background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+        width: 100%;
+        height: 380vh;
+        top: 980px;
+        text-align: center;
+    }
+    
+    .images{
+        position: absolute;
+        right: 275px;
+        top:529px;
+        text-align: center;
+    }
+    
+    .images img{
+        transition: bottom 1s, right 1s;
+    }
+    .shape{
+        right: 20px;
+        position: relative;
+        top: 255px;
+        height: 550px;
+    }
+    .images:hover .shape{
+        right: 100px;
+    }
+    
+    .pic{
+        position: absolute;
+        right: 110px;
+        bottom: -120px;
+        width: 390px;
+        height: auto;
+    }
+    
+    .images:hover .pic{
+        bottom: 100px;
+    }
+    
+    .about .info{
+        position:static;
+        margin-top:150px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: lightblue;
+        
+    }
+    .info{
+        left: 200px;
+    }
+    .about .name{
+        font-size: 3rem;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        
+    }
+    .about .skills{
+        font-size: 2.4rem;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .about .list{
+        font-size: 1.7rem;
+        
+    }
+    .abt{
+        margin-top: 50px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .background{
+        position: absolute;
+        top: 1650px;
+        color: lightblue;
+        font-size: 1.7rem;
+        left: 20px;
+        text-align: center;
+        
+    }
+    .background p{
+        margin: 30px;
+    }
+    
+    
+    .break{
+        margin-top: 50px;
+        font-size: 2rem;
+        margin-left:  20px;
+    }
+    .background li{
+        font-weight: bolder;
+        color: lightblue;
+        margin: 20px;
+    }
+    .projects{
+        position: absolute;
+        top:3600px;
+        width: 100%;
+        height: 100vh;
+        background: rgb(14,20,59);
+    background: linear-gradient(90deg, rgba(14,20,59,1) 30%, rgba(11,26,57,1) 91%);
+        text-align: center;
+    }
+    .projects h1{
+        position: relative;
+        color: whitesmoke;
+        top: 150px;
+    }
+    .listt{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        list-style: none;  
+    }
+    .listt a{
+        color: cyan;
+        list-style: none;
+        text-decoration:none;
+        margin-right: 30px;
+        font-size: 2rem;
+    }
+    .listt a:hover{
+        color: pink;
+    }
+    
+    .list2 h1{
+        color: whitesmoke;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    .list2 li{
+        position: relative;
+        color: cyan;
+        font-size: 1.5rem;
+        top:200px;
+        
+    }
+    }
+
+
+/*buraaaaaaaaaaaaaaaaaaaaattttttttttttttttt*/
+
+@media screen and (max-width: 415px) {
+    
+        .navbar{
+            position: fixed;
+            display: inline-block;
+            justify-content: space-between;
+            list-style: none;
+            background: rgb(28,9,87);
+            background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+            width: 100%;
+            height: 11vh;
+            text-align: right;
+            top: 0;
+            z-index: 10;
+        }
+        .navbar .logo{
+            position: absolute;
+            left: 0;
+            top: 0px;
+            color: cyan;
+            font-size: 27px;
+            width: 130px;
+            height: 98px;
+        }
+        
+        .navbar a{
+            position: relative;
+            text-decoration: none;
+            color: cyan;
+            margin: 5px;
+            top: 40px; 
+            right: 20px;
+            font-size: 15px;
+            
+        }
+        .navbar a:hover{
+            color: black;
+        }
+        
+        
+        .introduction{
+            position: absolute;
+            top: 80px;
+            width: 100%;
+            height: 65vh;
+            background-color: black;
+            color: black;
+            text-align: center;   
+        }
+        
+        .text{
+            position: relative;
+            top: 150px;
+            color: whitesmoke;
+        }
+        
+        .text h1{
+            margin: 20px;
+            margin-bottom: 0;
+            font-size: 1.5em;
+            font-weight: bolder; 
+        }
+        
+        .ptext{
+            margin: 40px;
+            font-size: 1.1rem;
+            font-weight: lighter;
+        }
+        
+        .about{
+            position: absolute;
+            background: rgb(28,9,87);
+            background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+            width: 100%;
+            height: 240vh;
+            top: 661px;
+            text-align: center;
+        }
+        
+        .images{
+            position: absolute;
+            right: 0px;
+            top:529px;
+            text-align: center;
+        }
+        
+        .images img{
+            transition: bottom 1s, right 1s;
+        }
+        .shape{
+            right: 70px;
+            position: relative;
+            top: 150px;
+            height: 270px;
+        }
+        .images:hover .shape{
+            right: 100px;
+        }
+        
+        .pic{
+            position: absolute;
+            right: 120px;
+            bottom: -80px;
+            width: 180px;
+            height: auto;
+        }
+        
+        .images:hover .pic{
+            bottom: 10px;
+        }
+        
+        .about .info{
+            position:static;
+            margin-top:150px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: lightblue;
+            
+        }
+        .info{
+            left: 200px;
+        }
+        .about .name{
+            font-size: 2rem;
+            font-weight: bolder;
+            margin-bottom: 50px;
+            
+        }
+        .about .skills{
+            font-size: 1.5rem;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        
+        .about .list{
+            font-size: 1rem;
+            
+        }
+        .abt{
+            margin-top: 50px;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .background{
+            position: absolute;
+            top: 1100px;
+            color: lightblue;
+            font-size: 1.1rem;
+            left: 20px;
+            text-align: center;
+            
+        }
+        .background p{
+            margin: 30px;
+        }
+        
+        
+        .break{
+            margin-top: 50px;
+            font-size: 1rem;
+            margin-left:  20px;
+        }
+        .background li{
+            font-weight: bolder;
+            color: lightblue;
+            margin: 20px;
+            font-size: 1rem;
+        }
+        .projects{
+            position: absolute;
+            top:2610px;
+            width: 100%;
+            height: 100vh;
+            background: rgb(14,20,59);
+        background: linear-gradient(90deg, rgba(14,20,59,1) 30%, rgba(11,26,57,1) 91%);
+            text-align: center;
+        }
+        .projects h1{
+            position: relative;
+            color: whitesmoke;
+            top: 150px;
+            font-size: 1.5rem;
+        }
+        .listt{
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+            list-style: none;  
+        }
+        .listt a{
+            color: cyan;
+            list-style: none;
+            text-decoration:none;
+            margin-right: 20px;
+            font-size: 1.3rem;
+        }
+        .listt a:hover{
+            color: pink;
+        }
+        
+        .list2 h1{
+            color: whitesmoke;
+            font-size: 1.6rem;
+            font-weight: bold;
+        
+        }
+        .list2 li{
+            position: relative;
+            color: cyan;
+            font-size: 1rem;
+            top:200px;
+            
+        }
+ }
+ 
+@media(max-width: 370px) {
+    
+    .navbar{
+        position: fixed;
+        display: inline-block;
+        justify-content: space-between;
+        list-style: none;
+        background: rgb(28,9,87);
+        background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+        width: 100%;
+        height: 12vh;
+        text-align: right;
+        top: 0;
+        z-index: 10;
+    }
+    .navbar .logo{
+        position: absolute;
+        left: 0;
+        top: 0px;
+        color: cyan;
+        font-size: 27px;
+        width: 130px;
+        height: 88px;
+    }
+    
+    .navbar a{
+        position: relative;
+        text-decoration: none;
+        color: cyan;
+        margin: 5px;
+        top: 40px; 
+        right: 20px;
+        font-size: 14px;
+        
+    }
+    .navbar a:hover{
+        color: black;
+    }
+    
+    
+    .introduction{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 75vh;
+        background-color: black;
+        color: black;
+        text-align: center;   
+    }
+    
+    .text{
+        position: relative;
+        top: 150px;
+        color: whitesmoke;
+    }
+    
+    .text h1{
+        margin: 20px;
+        margin-bottom: 0;
+        font-size: 1.2em;
+        font-weight: bolder; 
+    }
+    
+    .ptext{
+        margin: 40px;
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+    
+    .about{
+        position: absolute;
+        background: rgb(28,9,87);
+        background: linear-gradient(90deg, rgba(28,9,87,1) 0%, rgba(24,25,83,1) 36%, rgba(25,23,75,1) 50%, rgba(21,29,80,1) 71%, rgba(23,56,126,1) 100%);
+        width: 100%;
+        height: 279vh;
+        top: 631px;
+        text-align: center;
+    }
+    
+    .images{
+        position: absolute;
+        right: 0px;
+        top:529px;
+        text-align: center;
+    }
+    
+    .images img{
+        transition: bottom 1s, right 1s;
+    }
+    .shape{
+        right: 40px;
+        position: relative;
+        top: 150px;
+        height: 270px;
+    }
+    .images:hover .shape{
+        right: 100px;
+    }
+    
+    .pic{
+        position: absolute;
+        right: 80px;
+        bottom: -80px;
+        width: 200px;
+        height: auto;
+    }
+    
+    .images:hover .pic{
+        bottom: 10px;
+    }
+    
+    .about .info{
+        position:static;
+        margin-top:150px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: lightblue;   
+    }
+    .about .name{
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-bottom: 50px;
+        
+    }
+    .about .skills{
+        font-size: 1.5rem;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .about .list{
+        font-size: 1rem;
+        
+    }
+    .abt{
+        margin-top: 50px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .background{
+        position: absolute;
+        top: 1100px;
+        color: lightblue;
+        font-size: 1.1rem;
+        left: 20px;
+        text-align: center;
+        
+    }
+    .background p{
+        margin: 30px;
+    }
+    
+    
+    .break{
+        margin-top: 50px;
+        font-size: 1rem;
+        margin-left:  20px;
+    }
+    .background li{
+        font-weight: bolder;
+        color: lightblue;
+        margin: 20px;
+        font-size: 1rem;
+    }
+    .projects{
+        position: absolute;
+        top:2690px;
+        width: 100%;
+        height: 100vh;
+        background: rgb(14,20,59);
+    background: linear-gradient(90deg, rgba(14,20,59,1) 30%, rgba(11,26,57,1) 91%);
+        text-align: center;
+    }
+    .projects h1{
+        position: relative;
+        color: whitesmoke;
+        top: 150px;
+        font-size: 1.5rem;
+    }
+    .listt{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        list-style: none;  
+    }
+    .listt a{
+        color: cyan;
+        list-style: none;
+        text-decoration:none;
+        margin-right: 20px;
+        font-size: 1.3rem;
+    }
+    .listt a:hover{
+        color: pink;
+    }
+    
+    .list2 h1{
+        color: whitesmoke;
+        font-size: 1.6rem;
+        font-weight: bold;
+    
+    }
+    .list2 li{
+        position: relative;
+        color: cyan;
+        font-size: 1rem;
+        top:200px;
+        
+    }
+}
+
+        
+
+
+
+
