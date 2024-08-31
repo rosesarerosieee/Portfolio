@@ -37,7 +37,7 @@ const Hero = () => {
     },[]);
 
     return(
-    <div ref={heroRef}className={`flex flex-col items-start justify-center gap-2 w-full h-[100vh] duration-1000 ease-in-out`}>
+    <div ref={heroRef}className={`flex flex-col items-start justify-center gap-2 w-full h-[100vh] duration-1000 ease-in-out ml-[20px]`}>
         <div className={`text-2xl text-red-500 ${animateState ? 'pop-up' : ''}`}>
             <h1>My Name is Kristian Perez</h1>
             <h2>Born on July 2, 2003</h2>
