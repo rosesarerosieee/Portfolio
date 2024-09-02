@@ -2,7 +2,7 @@ import Hero from './components/hero';
 import Header from './components/header';
 import Intro from './components/introduction';
 import Socials from './components/socials';
-import MyBackground from './components/background';
+import MyProjects from './components/Project';
 import { Element } from 'react-scroll';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -24,7 +24,7 @@ function App() {
       </Element>     
 
       <Element name="mybackground">
-        <MyBackground/>
+        <MyProjects/>
       </Element>
 
        <Element name='socials'>

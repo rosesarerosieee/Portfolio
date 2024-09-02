@@ -44,6 +44,8 @@ const Hero = () => {
             <h2>I live in Marulas, Valenzuela City in Philippines</h2>
             <h2>I do things about Web Development</h2>
             <h2>And I Want to be become Software Engineer</h2>
+            <h2>Skills should Input here</h2>
+            
         </div>
     </div>
     );

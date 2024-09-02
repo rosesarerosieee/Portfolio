@@ -1,9 +1,9 @@
-const MyBackground = () => {
+const MyProjects = () => {
 
     return(
       <>
       <div className={`w-full h-[150vh] `}>
-      <h1>This is My Background</h1>
+      <h1>My projects</h1>
 
       </div>
       </>
@@ -11,4 +11,4 @@ const MyBackground = () => {
 
 };
 
-export default MyBackground;
+export default MyProjects;

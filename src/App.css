@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d7d7d7;
+}
+
 @keyframes pop-up{
 
     0%{
@@ -15,4 +25,8 @@
     opacity: 1;
     animation: pop-up 1s ease-in-out;
 
+}
+
+.active-link{
+    text-decoration: underline black 3px; 
 }
