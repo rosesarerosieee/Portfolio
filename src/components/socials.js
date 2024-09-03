@@ -13,32 +13,58 @@ const Socials = () => {
           <div
             className={`relative flex items-center justify-center text-center text-[2.5rem] w-30% h-[6vh] gap-[20px] `}
           >
-            <FontAwesomeIcon
-              icon={faSquareFacebook}
-              className={`cursor-pointer 
+            <a
+              href="https://www.facebook.com/theyseedaisyy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faSquareFacebook}
+                className={`cursor-pointer 
                         hover:text-white
                         transition-all duration-1000 ease-in-out hover:text-[5rem]`}
-            ></FontAwesomeIcon>
+              ></FontAwesomeIcon>
+            </a>
 
-            <FontAwesomeIcon
-              icon={faSquareInstagram}
-              className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
-            ></FontAwesomeIcon>
+            <a
+              href="https://www.instagram.com/herbertursuwaaa/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faSquareInstagram}
+                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+              ></FontAwesomeIcon>
+            </a>
 
-            <FontAwesomeIcon
-              icon={faSquareXTwitter}
-              className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
-            ></FontAwesomeIcon>
+            <a
+              href="https://x.com/herbertursuwaaa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faSquareXTwitter}
+                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+              ></FontAwesomeIcon>
+            </a>
 
-            <FontAwesomeIcon
-              icon={faSquareGithub}
-              className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
-            ></FontAwesomeIcon>
+            <a
+              href="https://github.com/rosesarerosieee?tab=repositories"
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              <FontAwesomeIcon
+                icon={faSquareGithub}
+                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+              ></FontAwesomeIcon>
+            </a>
 
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
-            ></FontAwesomeIcon>
+            <a href="https://www.linkedin.com/in/kristian-perez-a7154a285/" target='_blank' rel='noopener noreferer'>
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+              ></FontAwesomeIcon>
+            </a>
           </div>
         </div>
       </>
