@@ -11,7 +11,7 @@ const Socials = () => {
           className={`flex items-center justify-center text-center text-[2rem] w-[100%] h-[12vh] bg-[#d7d7d7]`}
         >
           <div
-            className={`relative flex items-center justify-center text-center text-[2.5rem] w-30% h-[6vh] gap-[20px] `}
+            className={`relative flex items-center justify-center text-center text-[2.5rem] w-[30%] h-[6vh] gap-[20px] `}
           >
             <a
               href="https://www.facebook.com/theyseedaisyy/"

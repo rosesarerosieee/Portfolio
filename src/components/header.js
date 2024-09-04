@@ -11,7 +11,6 @@ const Header = () => {
           </h1>
         </div>
         <ul className="flex items-center justify-end gap-[20px] h-[12vh] pr-5 text-[1.3rem]">
-        
           <li className="link mr-4">
             <Link
               to="intro"
@@ -40,7 +39,7 @@ const Header = () => {
 
           <li className="link mr-4">
             <Link
-              to="mybackground"
+              to="myproject"
               smooth={true}
               duration={500}
               spy={true}

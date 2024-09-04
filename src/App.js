@@ -1,11 +1,10 @@
 import Hero from './components/hero';
 import Header from './components/header';
 import Intro from './components/introduction';
-import Socials from './components/socials';
-import MyProjects from './components/Project';
+import Socials from './components/socials'; 
+import MyProjects from './components/myproject';
 import { Element } from 'react-scroll';
 import { BrowserRouter as Router } from 'react-router-dom';
-
 
 function App() {
   return (
@@ -22,12 +21,12 @@ function App() {
       <Element name="hero">
         <Hero/> 
       </Element>     
-
-      <Element name="mybackground">
+      
+      <Element mame="myproject">
         <MyProjects/>
-      </Element>
+      </Element> 
 
-       <Element name='socials'>
+      <Element name='socials'>
         <Socials />
       </Element>
       
