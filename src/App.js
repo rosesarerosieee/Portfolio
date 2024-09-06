@@ -22,7 +22,7 @@ function App() {
         <Hero/> 
       </Element>     
       
-      <Element mame="myproject">
+      <Element name="myproject">
         <MyProjects/>
       </Element> 
 
