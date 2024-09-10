@@ -6,6 +6,12 @@ import StudywMe from "../assets/Study-with-me-desktop.png";
 import StudywMeMobile from "../assets/Study-with-me-mobile.png";
 import Dictionary from "../assets/Dictionary-desktop.png";
 import DictionaryMobile from "../assets/Dictionary-mobile.png";
+import WeatherChecker from '../assets/Weather-Checker-Desktop.png'
+import WeatherCheckerMobile from '../assets/Weather-Checker-Mobile.png';
+import Currency from '../assets/Currency-Desktop.png'
+import CurrencyMobile from '../assets/Currency-Mobile.png'
+import Qr from '../assets/Qr-Desktop.png'
+import Qrmobile from '../assets/Qr-Mobile.png'
 
 const MyProjects = () => {
   const [animateState, setAnimateState] = useState(false);
@@ -181,7 +187,7 @@ const MyProjects = () => {
         </div>
 
         {/* Centered Element */}
-        <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center">
+        <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center text-pretty">
           <h1 className="text-xl font-bold">
             <span className="uppercase font-extrabold">Dictionary Web App</span>
             is a dynamic and user-friendly application that allows users to
@@ -204,7 +210,7 @@ const MyProjects = () => {
           <div className="relative w-[350px] h-[250px] rounded-[20px] overflow-hidden border-[14px] border-gray-700 shadow-lg pr-[20px]">
             <div className="absolute top-0 left-0 w-full h-full">
               <img
-                src={TodoList}
+                src={WeatherChecker}
                 className="w-full h-full object-cover"
                 alt="To-do list"
               />
@@ -223,7 +229,7 @@ const MyProjects = () => {
             {/* Screen Content */}
             <div className="w-full h-full flex items-center justify-center">
               <img
-                src={TodoListMobile}
+                src={WeatherCheckerMobile}
                 className="w-full h-full object-cover"
                 alt="To-do list"
               />
@@ -232,19 +238,22 @@ const MyProjects = () => {
         </div>
 
         {/* Centered Element */}
-        <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center">
+        <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center text-pretty">
           <h1 className="text-xl font-bold">
-            <span className="uppercase font-extrabold">2-do-list</span> is a web
-            app where you can create an account, and create a task. You can mark
-            your as a completed and delete them, when its done. This web-app
-            will helps you to track your needed to do on your daily lives. The
-            task that you can input here, is Unlimited.
+            <span className="uppercase font-extrabold">
+              Weather-Checker-Web-APP
+            </span>
+            is a web app that allows you to detect the weather for every City in
+            country. The Background of the website will Change based on the
+            current temperature of detected City.
           </h1>
-          <a href="https://2doweb-app.netlify.app/" target="_blank">
-            <button className="cursor-pointer">
-              <a href="https://2doweb-app.netlify.app/" target="_blank" />
-              2-do-web-app
-            </button>
+          <a
+            href="https://rosesarerosieee.github.io/Weather-Checker/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-extrabold underline uppercase"
+          >
+            Weather-Cheacker-Web-APP
           </a>
         </div>
       </div>
@@ -255,7 +264,7 @@ const MyProjects = () => {
           <div className="relative w-[350px] h-[250px] rounded-[20px] overflow-hidden border-[14px] border-gray-700 shadow-lg pr-[20px]">
             <div className="absolute top-0 left-0 w-full h-full">
               <img
-                src={TodoList}
+                src={Currency}
                 className="w-full h-full object-cover"
                 alt="To-do list"
               />
@@ -274,7 +283,7 @@ const MyProjects = () => {
             {/* Screen Content */}
             <div className="w-full h-full flex items-center justify-center">
               <img
-                src={TodoListMobile}
+                src={CurrencyMobile}
                 className="w-full h-full object-cover"
                 alt="To-do list"
               />
@@ -285,27 +294,28 @@ const MyProjects = () => {
         {/* Centered Element */}
         <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center">
           <h1 className="text-xl font-bold">
-            <span className="uppercase font-extrabold">2-do-list</span> is a web
-            app where you can create an account, and create a task. You can mark
-            your as a completed and delete them, when its done. This web-app
-            will helps you to track your needed to do on your daily lives. The
-            task that you can input here, is Unlimited.
+            <span className="uppercase font-extrabold">Currency-Converter-Web-APp</span>
+            is a web application that allows users to
+            convert different currencies in the world.
           </h1>
-          <a href="https://2doweb-app.netlify.app/" target="_blank">
-            <button className="cursor-pointer">
-              <a href="https://2doweb-app.netlify.app/" target="_blank" />
-              2-do-web-app
-            </button>
+          <a
+            href="https://dictionary-rose.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-extrabold underline uppercase"
+          >
+            Currency-Converter-web-app
           </a>
         </div>
       </div>
+
       <div className="grid grid-cols-2 gap-[10px] w-full h-full">
         {/* Desktop Container */}
         <div className="flex items-center justify-center">
           <div className="relative w-[350px] h-[250px] rounded-[20px] overflow-hidden border-[14px] border-gray-700 shadow-lg pr-[20px]">
             <div className="absolute top-0 left-0 w-full h-full">
               <img
-                src={TodoList}
+                src={Qr}
                 className="w-full h-full object-cover"
                 alt="To-do list"
               />
@@ -324,7 +334,7 @@ const MyProjects = () => {
             {/* Screen Content */}
             <div className="w-full h-full flex items-center justify-center">
               <img
-                src={TodoListMobile}
+                src={Qrmobile}
                 className="w-full h-full object-cover"
                 alt="To-do list"
               />
@@ -335,17 +345,17 @@ const MyProjects = () => {
         {/* Centered Element */}
         <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center">
           <h1 className="text-xl font-bold">
-            <span className="uppercase font-extrabold">2-do-list</span> is a web
-            app where you can create an account, and create a task. You can mark
-            your as a completed and delete them, when its done. This web-app
-            will helps you to track your needed to do on your daily lives. The
-            task that you can input here, is Unlimited.
+            <span className="uppercase font-extrabold">Qr-Geneartor</span>
+            is a dynamic and user-friendly web application that allows users to
+            put a Link of a youtube video and it will conveted it into Qr.
           </h1>
-          <a href="https://2doweb-app.netlify.app/" target="_blank">
-            <button className="cursor-pointer">
-              <a href="https://2doweb-app.netlify.app/" target="_blank" />
-              2-do-web-app
-            </button>
+          <a
+            href="https://dictionary-rose.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-extrabold underline uppercase"
+          >
+            Dictionary-Web-App
           </a>
         </div>
       </div>
