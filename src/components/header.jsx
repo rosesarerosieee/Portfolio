@@ -8,7 +8,7 @@ const Header = () => {
         <div className="absolute flex items-center justify-start h-[12vh] pl-[30px] ">
           <Link to="/">
             <h1 className="font-extrabold uppercase cursor-pointer transition-all duration 1000 ease-in-out hover:text-[3rem] hover:text-white">
-              Kristian
+              Kristian Dev
             </h1>
           </Link>
         </div>
@@ -20,7 +20,7 @@ const Header = () => {
               duration={500}
               spy={true}
               activeClass="active-link"
-              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[3rem] hover:text-white"
+              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[blue]"
             >
               Intro
             </Link>
@@ -33,7 +33,7 @@ const Header = () => {
               duration={500}
               spy={true}
               activeClass="active-link"
-              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[3rem] hover:text-white"
+              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[blue]"
             >
               About
             </Link>
@@ -46,7 +46,7 @@ const Header = () => {
               duration={500}
               spy={true}
               activeClass="active-link"
-              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[3rem] hover:text-white"
+              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[blue]"
             >
               Projects
             </Link>
@@ -59,7 +59,7 @@ const Header = () => {
               duration={500}
               spy={true}
               activeClass="active-link"
-              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[3rem] hover:text-white"
+              className="cursor-pointer transition-all duration-1000 ease-in-out hover:text-[blue]"
             >
               Socials
             </Link>

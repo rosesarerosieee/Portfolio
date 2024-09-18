@@ -21,7 +21,7 @@ const Socials = () => {
               <FontAwesomeIcon
                 icon={faSquareFacebook}
                 className={`cursor-pointer 
-                        hover:text-white
+                        hover:text-[blue]
                         transition-all duration-1000 ease-in-out hover:text-[5rem]`}
               ></FontAwesomeIcon>
             </a>
@@ -33,7 +33,7 @@ const Socials = () => {
             >
               <FontAwesomeIcon
                 icon={faSquareInstagram}
-                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+                className={`cursor-pointer hover:text-[blue] transition-all duration-1000 ease-in-out hover:text-[5rem]`}
               ></FontAwesomeIcon>
             </a>
 
@@ -44,7 +44,7 @@ const Socials = () => {
             >
               <FontAwesomeIcon
                 icon={faSquareXTwitter}
-                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+                className={`cursor-pointer hover:text-[blue] transition-all duration-1000 ease-in-out hover:text-[5rem]`}
               ></FontAwesomeIcon>
             </a>
 
@@ -55,14 +55,18 @@ const Socials = () => {
             >
               <FontAwesomeIcon
                 icon={faSquareGithub}
-                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+                className={`cursor-pointer hover:text-[blue] transition-all duration-1000 ease-in-out hover:text-[5rem]`}
               ></FontAwesomeIcon>
             </a>
 
-            <a href="https://www.linkedin.com/in/kristian-perez-a7154a285/" target='_blank' rel='noopener noreferer'>
+            <a
+              href="https://www.linkedin.com/in/kristian-perez-a7154a285/"
+              target="_blank"
+              rel="noopener noreferer"
+            >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className={`cursor-pointer hover:text-white transition-all duration-1000 ease-in-out hover:text-[5rem]`}
+                className={`cursor-pointer hover:text-[blue] transition-all duration-1000 ease-in-out hover:text-[5rem]`}
               ></FontAwesomeIcon>
             </a>
           </div>

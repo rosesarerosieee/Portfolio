@@ -97,7 +97,7 @@ const MyProjects = () => {
             href="https://studywithme-web-app.netlify.app/"
             target="_blank"
             rel="nonreferrer"
-            className="font-extrabold uppercase underline"
+            className="font-extrabold uppercase underline hover:text-[blue]"
           >
             2-do-web-app
           </a>
@@ -146,7 +146,7 @@ const MyProjects = () => {
             href="https://2doweb-app.netlify.app/"
             target="_blank"
             rel="nonreferrer"
-            className="font-extrabold uppercase underline"
+            className="font-extrabold uppercase underline hover:text-[blue]"
           >
             Study-With-Me
           </a>
@@ -189,7 +189,8 @@ const MyProjects = () => {
         {/* Centered Element */}
         <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center text-pretty">
           <h1 className="text-xl font-bold">
-            <span className="uppercase font-extrabold">Dictionary Web App</span>
+            <span className="uppercase font-extrabold">Dictionary Web App</span>{" "}
+            {``}
             is a dynamic and user-friendly application that allows users to
             search for any word and instantly view its definition.
           </h1>
@@ -197,7 +198,7 @@ const MyProjects = () => {
             href="https://dictionary-rose.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="font-extrabold underline uppercase"
+            className="font-extrabold underline uppercase hover:text-[blue]"
           >
             Dictionary-Web-App
           </a>
@@ -242,7 +243,8 @@ const MyProjects = () => {
           <h1 className="text-xl font-bold">
             <span className="uppercase font-extrabold">
               Weather-Checker-Web-APP
-            </span>
+            </span>{" "}
+            {``}
             is a web app that allows you to detect the weather for every City in
             country. The Background of the website will Change based on the
             current temperature of detected City.
@@ -251,7 +253,7 @@ const MyProjects = () => {
             href="https://rosesarerosieee.github.io/Weather-Checker/"
             target="_blank"
             rel="noreferrer"
-            className="font-extrabold underline uppercase"
+            className="font-extrabold underline uppercase hover:text-[blue]"
           >
             Weather-Cheacker-Web-APP
           </a>
@@ -294,15 +296,17 @@ const MyProjects = () => {
         {/* Centered Element */}
         <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center">
           <h1 className="text-xl font-bold">
-            <span className="uppercase font-extrabold">Currency-Converter-Web-APp</span>
-            is a web application that allows users to
-            convert different currencies in the world.
+            <span className="uppercase font-extrabold">
+              Currency-Converter-Web-APP
+            </span>{" "}
+            is a web application that allows users to convert different
+            currencies in the world.
           </h1>
           <a
             href="https://dictionary-rose.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="font-extrabold underline uppercase"
+            className="font-extrabold underline uppercase hover:text-[blue]"
           >
             Currency-Converter-web-app
           </a>
@@ -345,7 +349,7 @@ const MyProjects = () => {
         {/* Centered Element */}
         <div className="col-span-2 flex items-center justify-center flex-col gap-[20px] text-center">
           <h1 className="text-xl font-bold">
-            <span className="uppercase font-extrabold">Qr-Geneartor</span>
+            <span className="uppercase font-extrabold">Qr-Geneartor</span> {``}
             is a dynamic and user-friendly web application that allows users to
             put a Link of a youtube video and it will conveted it into Qr.
           </h1>
@@ -353,7 +357,7 @@ const MyProjects = () => {
             href="https://dictionary-rose.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="font-extrabold underline uppercase"
+            className="font-extrabold underline uppercase hover:text-[blue]"
           >
             Dictionary-Web-App
           </a>
