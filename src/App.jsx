@@ -12,7 +12,7 @@ function App() {
     <>
     <Header/>
 
-    <div className='mt-[12vh]'>
+    <div className='mt-[12vh] overvlow-hidden'>
 
       <Element name='intro'>
         <Intro/>
