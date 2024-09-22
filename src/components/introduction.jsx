@@ -35,16 +35,28 @@ const Intro = () => {
 
     },[]);
     
-    return(
-        <>
-        <div ref={introRef} className={`relative flex  items-center justify-center flex-col gap-10 bg-cyan w-full h-[100vh] text-center duration-1000 ease-in-out`}>
-            <div className={`relative flex items-center justify-start gap-[30px] h-[20vh] flex-col  ${animateState ? "pop-up": ""}`}>
-            <h1 className="text-6xl text-red-500">Welcome To my Portfolio</h1>
-            <h2 className="text-2xl text-red-500">In this web page, You'll learn about, My name, age, what am i, what I want to be come, my background, and socials.</h2>
-            </div>
+    return (
+      <>
+        <div
+          ref={introRef}
+          className={`w-screen h-[100vh] relative flex  items-center justify-center flex-col gap-10 bg- text-center duration-1000 ease-in-out cyan md:w-full md:h-[100vh]`}
+        >
+          <div
+            className={`relative flex items-center justify-center text-center pl-[20px] gap-[30px] md:h-[20vh] flex-col  ${
+              animateState ? "pop-up" : ""
+            }`}
+          >
+            <h1 className="text-[2rem] md:text-6xl text-black">
+              Welcome To my Portfolio
+            </h1>
+            <h2 className="text-[1.5rem] md:text-2xl tex-black">
+              In this web page, You'll learn about, My name, age, what am i,
+              what I want to be come, my background, and socials.
+            </h2>
+          </div>
         </div>
-        </>
-    )
+      </>
+    );
 
 
 }; 
