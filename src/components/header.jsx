@@ -4,15 +4,15 @@ import "../App.css";
 const Header = () => {
   return (
     <>
-      <header className="w-screen h-[13vh] fixed top-0 left-0 items-center justify-between bg-[#d7d7d7] z-[999999999] md:w-full md:h-[13vh] ">
+      <header className="w-screen h-[13vh] fixed top-0 left-0 items-center justify-between bg-[#d7d7d7] z-[999999999] md:w-full md:h-[13vh]  ">
         <div className="absolute flex items-center justify-start h-[12vh]  ">
           <Link to="/">
-            <h1 className="font-extrabold uppercase cursor-pointer ease-in-out hover:text-white">
+            <h1 className="font-extrabold uppercase cursor-pointer ease-in-out hover:text-white md:pl-[20px]">
               Kristian Dev
             </h1>
           </Link>
         </div>
-        <ul className="flex items-center justify-end w-full h-[12vh] text-[1rem] gap-[5px] md:text-[2rem]">
+        <ul className="flex items-center justify-end w-full h-[12vh] text-[1rem] gap-[5px] md:text-[1.6rem] md:gap-[20px] md:pr-[20px]" >
           <li className="link ">
             <Link
               to="intro"

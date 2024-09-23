@@ -30,7 +30,6 @@ body{
 .active-link{
     text-decoration: underline black 3px; 
     background-color: grey;
-    border-radius: 10px;
 }
 
 .transition-opacity {

@@ -36,14 +36,14 @@ const MyProjects = () => {
   return (
     <div
       ref={MyprojectRef}
-      className={`w-screen h-auto items-center justify-center relative md:grid md:grid-cols-[repeat(2,650px)] md:grid-rows-[repeat(3,full)] md:gap-[20px] ${
+      className={`w-screen h-auto items-center justify-center relative md:grid md:grid-cols-[repeat(2,650px)] md:grid-rows-[repeat(1,full)] md:gap-[30px] md:w-full md:h-[200vh] ${
         animateState ? "pop-up" : ""
       }`}
     >
       {projectdata.map((project, index) => (
         <div
           key={index}
-          className="w-full flex flex-col items-center justify-center p-4 gap-4 md:grid md:grid-cols-2 md:gap-[10px] md:p-6"
+          className="w-full flex flex-col items-center justify-center p-4 gap-4 md:grid md:grid-cols-2 md:gap-[10px] md:p-6 md:w-full md:h-full"
         >
           {/* Project Desktop Container */}
           <div className="flex items-center justify-center">
@@ -73,7 +73,7 @@ const MyProjects = () => {
           </div>
 
           {/* Description and Link */}
-          <div className="flex flex-col items-center justify-center gap-[10px] text-center">
+          <div className="flex flex-col items-center justify-center gap-[10px] text-center md:text-center md:col-span-2 md:gap-[20px] md:w-full md:mt-[20px]">
             <h1 className="text-lg font-bold">{project.description}</h1>
             <a
               href={project.link}

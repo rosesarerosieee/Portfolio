@@ -1,9 +1,8 @@
 import "../App.css";
 import React, { useState, useEffect, useRef } from "react";
-import Image1 from '../assets/me1.jpg';
-import Image2 from '../assets/me2.png';
-import Image3 from '../assets/me3.jpeg';
-
+import Image1 from "../assets/me1.jpg";
+import Image2 from "../assets/me2.png";
+import Image3 from "../assets/me3.jpeg";
 
 const Hero = () => {
   const [animateState, setAnimateState] = useState(false);
@@ -39,25 +38,22 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    
     const Images = [Image1, Image2, Image3];
     const Interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % Images.length);
     }, 3000);
 
-
     return () => clearInterval(Interval);
-
   }, []);
 
   const Images = [Image1, Image2, Image3];
   return (
     <div
       ref={heroRef}
-      className={`relative flex justify-between gap-2 w-full h-[100vh] duration-1000 ease-in-out pl-[100px]`}
+      className={`w-screen h-screen relative flex flex-col items-center justify-center duration-1000 ease-in-out pl-[20px] md:pl-[100px] md:w-full md:h-[100vh] md:justify-between md:flex-row md:gap-2`}
     >
       <div
-        className={`flex items-center justify-center flex-col text-2xl text-red-500 ${
+        className={`flex items-center justify-center flex-col text-2xl text-black text-center md:text-left p-[10px] ${
           animateState ? "pop-up" : ""
         }`}
       >
@@ -73,7 +69,7 @@ const Hero = () => {
       </div>
 
       <div
-        className={`flex items-center justify-end w-1/2 h-full relative pr-[100px] ${
+        className={`flex items-center justify-center w-screen h-[300px] relative md:w-1/2 md:h-full${
           animateState ? "pop-up" : ""
         }`}
       >
@@ -81,10 +77,12 @@ const Hero = () => {
           <img
             key={index}
             src={image}
-            className={`w-[370px] h-[350px] absolute transition-opacity duration-500 ${index === currentImage ? 'opacity-100' : 'opacity-0'}`}
+            className={`w-[220px] h-[220px] absolute transition-opacity duration-500 md:w-[370px] md:h-[350px] ${
+              index === currentImage ? "opacity-100" : "opacity-0"
+            }`}
             alt={`Image ${index + 1}`}
           />
-       ))}
+        ))}
       </div>
     </div>
   );
