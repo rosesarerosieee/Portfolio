@@ -39,10 +39,10 @@ const Intro = () => {
       <>
         <div
           ref={introRef}
-          className={`w-screen h-[100vh] relative flex  items-center justify-center flex-col gap-10 bg- text-center duration-1000 ease-in-out cyan md:w-full md:h-[100vh]`}
+          className={`w-screen h-[100vh] relative flex  items-center justify-center flex-col gap-10 bg- text-center duration-1000 ease-in-out cyan md:w-[1068px] xl:w-full xl:h-[100vh]`}
         >
           <div
-            className={`relative flex items-center justify-center text-center pl-[20px] gap-[30px] md:h-[20vh] flex-col  ${
+            className={`relative flex items-center justify-center text-center pl-[20px] gap-[30px] xl:h-[20vh] flex-col  ${
               animateState ? "pop-up" : ""
             }`}
           >

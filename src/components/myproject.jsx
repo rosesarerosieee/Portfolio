@@ -36,18 +36,18 @@ const MyProjects = () => {
   return (
     <div
       ref={MyprojectRef}
-      className={`w-screen h-auto items-center justify-center relative md:grid md:grid-cols-[repeat(2,650px)] md:grid-rows-[repeat(1,full)] md:gap-[30px] md:w-full md:h-[200vh] ${
+      className={`w-screen h-auto items-center justify-center relative md:w-[1068px] xl:grid xl:grid-cols-[repeat(2,650px)] xl:grid-rows-[repeat(1,full)] xl:gap-[30px] xl:w-full xl:h-[200vh] ${
         animateState ? "pop-up" : ""
       }`}
     >
       {projectdata.map((project, index) => (
         <div
           key={index}
-          className="w-full flex flex-col items-center justify-center p-4 gap-4 md:grid md:grid-cols-2 md:gap-[10px] md:p-6 md:w-full md:h-full"
+          className="w-full flex flex-col items-center justify-center p-4 gap-4 xl:grid xl:grid-cols-2 xl:gap-[10px] xl:p-6 xl:w-full xl:h-full"
         >
           {/* Project Desktop Container */}
           <div className="flex items-center justify-center">
-            <div className="relative  w-[250px] h-[250px] rounded-[20px] overflow-hidden border-[14px] border-gray-700 shadow-lg md:w-[350px] md:h-[250px]">
+            <div className="relative  w-[250px] h-[250px] rounded-[20px] overflow-hidden border-[14px] border-gray-700 shadow-lg xl:w-[350px] xl:h-[250px]">
               <img
                 src={project.desktop}
                 className="w-full h-full object-cover"
@@ -73,16 +73,16 @@ const MyProjects = () => {
           </div>
 
           {/* Description and Link */}
-          <div className="flex flex-col items-center justify-center gap-[10px] text-center md:text-center md:col-span-2 md:gap-[20px] md:w-full md:mt-[20px]">
-            <h1 className="text-lg font-bold">{project.description}</h1>
+          <div className="flex flex-col items-center justify-center gap-[10px] text-center md:gap-[20px] xl:text-center xl:col-span-2 xl:gap-[20px] xl:w-full xl:mt-[20px]">
             <a
               href={project.link}
               target="_blank"
               rel="noreferrer"
-              className="font-extrabold uppercase underline hover:text-blue-500"
+              className="font-extrabold uppercase underline hover:text-blue-500 md:pt-[20px] md:text-[1.5rem] md:text-blue-500"
             >
               {project.projectName}
             </a>
+            <h1 className="text-lg font-bold md:text-[1.4rem] md:pb-[20px]">{project.description}</h1>
           </div>
         </div>
       ))}

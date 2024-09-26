@@ -50,10 +50,10 @@ const Hero = () => {
   return (
     <div
       ref={heroRef}
-      className={`w-screen h-screen relative flex flex-col items-center justify-center duration-1000 ease-in-out pl-[20px] md:pl-[100px] md:w-full md:h-[100vh] md:justify-between md:flex-row md:gap-2`}
+      className={`w-screen h-screen relative flex flex-col items-center justify-center duration-1000 ease-in-out pl-[20px] md:w-[1068px] md:h-[150vh] md:flex-col xl:pl-[100px] xl:w-full xl:h-[100vh] xl:justify-between xl:flex-row xl:gap-2`}
     >
       <div
-        className={`flex items-center justify-center flex-col text-2xl text-black text-center md:text-left p-[10px] ${
+        className={`flex items-center justify-center flex-col text-2xl text-black text-center md:text-center xl:text-left p-[10px] ${
           animateState ? "pop-up" : ""
         }`}
       >
@@ -69,7 +69,7 @@ const Hero = () => {
       </div>
 
       <div
-        className={`flex items-center justify-center w-screen h-[300px] relative md:w-1/2 md:h-full${
+        className={`flex items-center justify-center w-[220px] h-[300px] md:w-[768px] md:h-[300px] md:pt-[200px] relative xl:w-1/2 xl:h-full${
           animateState ? "pop-up" : ""
         }`}
       >
@@ -77,7 +77,7 @@ const Hero = () => {
           <img
             key={index}
             src={image}
-            className={`w-[220px] h-[220px] absolute transition-opacity duration-500 md:w-[370px] md:h-[350px] ${
+            className={`w-[2120px] h-[220px] absolute transition-opacity duration-500 md:w-[370px] md:h-[350px] ${
               index === currentImage ? "opacity-100" : "opacity-0"
             }`}
             alt={`Image ${index + 1}`}
