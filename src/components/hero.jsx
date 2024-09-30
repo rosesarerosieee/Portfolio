@@ -50,14 +50,14 @@ const Hero = () => {
   return (
     <div
       ref={heroRef}
-      className={`w-screen h-screen relative flex flex-col items-center justify-center duration-1000 ease-in-out pl-[20px] md:w-[1068px] md:h-[150vh] md:flex-col xl:pl-[100px] xl:w-full xl:h-[100vh] xl:justify-between xl:flex-row xl:gap-2`}
+      className={`w-screen h-screen relative flex flex-col items-center justify-center duration-1000 ease-in-out pl-[20px] md:w-[1068px] md:h-[150vh] md:flex-col xl:pl-[100px] xl:w-full xl:h-[200vh] xl:justify-between xl:items-center  xl:flex-row xl:gap-2`}
     >
       <div
         className={`flex items-center justify-center flex-col text-2xl text-black text-center md:text-center xl:text-left p-[10px] ${
           animateState ? "pop-up" : ""
         }`}
       >
-        <div className="">
+        <div className="xl:pt-[200px]">
           <h1>My Name is Kristian Perez</h1>
           <h2>Born on July 2, 2003</h2>
           <h2>And I Want to be become Software Engineer</h2>
