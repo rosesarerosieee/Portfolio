@@ -15,8 +15,8 @@ const Header = () => {
         {/* Logo */}
         <div className="ml-4">
           <Link
-            to="/"
-            className="text-xl font-extrabold uppercase cursor-pointer"
+            to="intro"
+            className="text-xl font-extrabold uppercase cursor-pointer hover:text-blue-500 "
           >
             Kristian Dev
           </Link>
