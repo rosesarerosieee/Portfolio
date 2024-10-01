@@ -16,6 +16,10 @@ const Header = () => {
         <div className="ml-4">
           <Link
             to="intro"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active-link"
             className="text-xl font-extrabold uppercase cursor-pointer hover:text-blue-500 "
           >
             Kristian Dev
@@ -24,21 +28,21 @@ const Header = () => {
 
         {/* Hamburger Menu */}
         <div
-          className="mr-4 cursor-pointer z-[100000] xl:hidden"
+          className="fixed right-[20px] cursor-pointer z-[100000] md:pr-[30px] xl:hidden m-0 p-0 "
           onClick={toggleMenu}
         >
           <span
-            className={`block w-[25px] h-[3px] bg-black my-[5px] transition-transform duration-300 ${
-              isOpen ? "transform rotate-45 translate-y-2" : ""
+            className={`block w-[25px] h-[5px] bg-black my-[5px] transition-transform duration-300  ${
+              isOpen ? "transform rotate-45 translate-y-2 md:translate-y-3" : ""
             }`}
           ></span>
           <span
-            className={`block w-[25px] h-[3px] bg-black my-[5px] transition-opacity duration-300 ${
+            className={`block w-[25px] h-[5px] bg-black my-[5px] transition-opacity duration-300 ${
               isOpen ? "opacity-0" : ""
             }`}
           ></span>
           <span
-            className={`block w-[25px] h-[3px] bg-black my-[5px] transition-transform duration-300 ${
+            className={`block w-[25px] h-[5px] bg-black my-[5px] transition-transform duration-300 ${
               isOpen ? "transform -rotate-45 -translate-y-2" : ""
             }`}
           ></span>
@@ -94,6 +98,8 @@ const Header = () => {
               to="hero"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="active-link"
               className="text-black text-lg hover:text-blue-600 cursor-pointer font-extrabold"
             >
               Profile
@@ -104,6 +110,8 @@ const Header = () => {
               to="myproject"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="active-link"
               className="text-black text-lg hover:text-blue-600 cursor-pointer font-extrabold"
             >
               Background
@@ -114,6 +122,8 @@ const Header = () => {
               to="socials"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="active-link"
               className="text-black text-lg hover:text-blue-600 cursor-pointer font-extrabold"
             >
               Socials

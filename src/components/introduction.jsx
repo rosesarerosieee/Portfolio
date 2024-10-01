@@ -20,16 +20,17 @@ const Intro = () => {
                     setAnimateState(false);
                 }
             }, {threshold:0.5 }
-        );
+      );
+      
+      const currentIntroRef = introRef.current
 
-        if(introRef.current){
-            observer.observe(introRef.current);
-
+        if (currentIntroRef) {
+          observer.observe(currentIntroRef);
         }
 
         return () => {
-            if(introRef.current){
-                observer.unobserve(introRef.current);
+            if (currentIntroRef) {
+              observer.unobserve(currentIntroRef);
             }
         };
 

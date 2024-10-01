@@ -52,7 +52,7 @@ const Hero = () => {
   return (
     <div
       ref={heroRef}
-      className={`w-screen h-screen relative flex flex-col items-center justify-start duration-1000 ease-in-out pl-[20px] md:w-[1068px] md:h-[150vh] md:pl-[20px] xl:w-full xl:h-[150vh] xl:items-start xl:justify-between xl:flex-row xl:gap-2 xl:pl-[50px]`}
+      className={`w-screen h-screen relative flex flex-col items-center justify-start duration-1000 ease-in-out pl-[20px] md:w-[1068px] md:h-[150vh] md:pl-[20px] xl:w-full xl:h-[150vh] xl:items-center xl:justify-between xl:flex-row xl:gap-2 xl:pl-[50px]`}
     >
       <div
         className={`flex flex-col items-center text-center xl:items-start xl:text-left ${

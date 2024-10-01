@@ -19,7 +19,7 @@ const project = [
     projectName: "2-DO-WEB-APP",
     description:
       "A web app where you can create an account, create tasks, mark them as completed, and delete them. Helps track your daily tasks.",
-    link: "https://studywithme-web-app.netlify.app/",
+    link: "https://2doweb-app.netlify.app/",
   },
   {
     desktop: StudywMe,
@@ -27,7 +27,7 @@ const project = [
     projectName: "Study-W-ME",
     description:
       " web app that allows you to input tasks for studying and track your progress by marking them as done. It includes a timer to help monitor your study sessions and features Lofi music to aid concentration",
-    link: "https://2doweb-app.netlify.app/",
+    link: "https://studywithme-web-app.netlify.app/",
   },
   {
     desktop: Dictionary,
@@ -51,7 +51,7 @@ const project = [
     projectName: "Currency-Converter-Web-app",
     description:
       " is a web application that allows users to convert different currencies in the world.",
-    link: "https://dictionary-rose.netlify.app/",
+    link: "https://currency-converter-rose.netlify.app/",
   },
   {
     desktop: Qr,
@@ -59,7 +59,7 @@ const project = [
     projectName: "QR-Generator-WEB-APP",
     description:
       "is a dynamic and user-friendly web application that allows users to put a Link of a youtube video and it will conveted it into Qr.",
-    link: "https://dictionary-rose.netlify.app/",
+    link: "https://qrcode-generator-rose.netlify.app/",
   },
 ];
 
