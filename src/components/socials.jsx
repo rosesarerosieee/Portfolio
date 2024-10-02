@@ -1,4 +1,3 @@
-import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSquareFacebook,
@@ -55,7 +54,7 @@ const Socials = () => {
           <a
             href="https://github.com/rosesarerosieee?tab=repositories"
             target="_blank"
-            rel="noopener noreferer"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon
               icon={faSquareGithub}
@@ -66,7 +65,7 @@ const Socials = () => {
           <a
             href="https://www.linkedin.com/in/kristian-perez-a7154a285/"
             target="_blank"
-            rel="noopener noreferer"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
