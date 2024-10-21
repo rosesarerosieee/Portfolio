@@ -40,7 +40,7 @@ const MyProjects = () => {
     <div
       ref={MyprojectRef}
       className={`w-screen h-auto items-center justify-center relative md:w-[1068px] xl:grid xl:grid-cols-[repeat(2,650px)] xl:grid-rows-[repeat(1,full)] xl:gap-[30px] xl:w-full xl:h-[200vh] ${
-        animateState ? "pop-up" : ""
+        animateState ? "animate-pop-up" : ""
       }`}
     >
       {projectdata.map((project, index) => (
@@ -85,7 +85,9 @@ const MyProjects = () => {
             >
               {project.projectName}
             </a>
-            <h1 className="text-lg font-bold md:text-[1.4rem] md:pb-[20px]">{project.description}</h1>
+            <h1 className="text-lg font-bold md:text-[1.4rem] md:pb-[20px]">
+              {project.description}
+            </h1>
           </div>
         </div>
       ))}

@@ -1,5 +1,4 @@
 import React, {useState, useEffect, useRef} from "react";
-import '../App.css'
 
 const Intro = () => {
 
@@ -8,8 +7,8 @@ const Intro = () => {
 
     const TriggerAnimation =() => {
         setAnimateState(true);
-    };
-
+  };
+  
     useEffect(() => { 
         const observer = new IntersectionObserver(
             (entries) => {
@@ -44,7 +43,7 @@ const Intro = () => {
         >
           <div
             className={`relative flex items-center justify-center text-center pl-[20px] gap-[30px] xl:h-[20vh] flex-col  ${
-              animateState ? "pop-up" : ""
+              animateState ? "animate-pop-up" : ""
             }`}
           >
             <h1 className="text-[2rem] md:text-6xl text-black">

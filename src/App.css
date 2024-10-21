@@ -8,38 +8,7 @@ body{
     background-color: #d7d7d7;
 }
 
-@keyframes pop-up{
-
-    0%{
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.pop-up{
-    opacity: 1;
-    animation: pop-up 1s ease-in-out;
-
-}
-
 .active-link{
-    text-decoration: underline black 3px; 
+    text-decoration: underline black 3px;
     background-color: grey;
 }
-
-.transition-opacity {
-  transition: opacity 0.5s ease-in-out;
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-100 {
-  opacity: 1;
-}   

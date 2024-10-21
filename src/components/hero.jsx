@@ -1,4 +1,3 @@
-import "../App.css";
 import React, { useState, useEffect, useRef } from "react";
 import Image1 from "../assets/me1.jpg";
 import Image2 from "../assets/me2.png";
@@ -52,14 +51,14 @@ const Hero = () => {
   return (
     <div
       ref={heroRef}
-      className={`w-screen h-screen relative flex flex-col items-center justify-start duration-1000 ease-in-out pl-[20px] md:w-[1068px] md:h-[150vh] md:pl-[20px] xl:w-full xl:h-[150vh] xl:items-center xl:justify-between xl:flex-row xl:gap-2 xl:pl-[50px]`}
+      className={`w-screen h-screen relative flex flex-col items-center justify-start duration-1000 ease-in-out pl-[20px] md:w-[1068px] md:h-[150vh] md:pl-[20px] xl:w-full xl:h-[150vh] xl:items-center xl:justify-between xl:flex-row  xl:pl-[50px]`}
     >
       <div
         className={`flex flex-col items-center text-center xl:items-start xl:text-left ${
-          animateState ? "pop-up" : ""
+          animateState ? "animate-pop-up" : ""
         }`}
       >
-        <h1 className="text-2xl text-black pt-[100px]">
+        <h1 className="text-2xl text-black pt-[100px] xl:pt-[200px]">
           My Name is Kristian Perez
         </h1>
         <h2 className="text-2xl">Born on July 2, 2003</h2>
@@ -72,8 +71,8 @@ const Hero = () => {
       </div>
 
       <div
-        className={`w-full flex justify-center mt-[20px] md:mt-[40px] xl:mt-[0] xl:w-[50%] ${
-          animateState ? "pop-up" : ""
+        className={`w-full flex justify-center mt-[20px] md:mt-[40px] xl:mt-[0] xl:pt-[0] xl:w-[50%] xl:h-[full] ${
+          animateState ? "animate-pop-up" : ""
         }`}
       >
         {Images.map((image, index) => (
