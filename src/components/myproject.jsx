@@ -81,7 +81,7 @@ const MyProjects = () => {
               href={project.link}
               target="_blank"
               rel="noreferrer"
-              className="font-extrabold uppercase underline cursor-pointer hover:text-blue-300 hover:text-blue-500 md:pt-[20px] md:text-[1.5rem] md:text-blue-500"
+              className="font-extrabold uppercase underline cursor-pointer hover:text-[white] hover:text-blue-500 md:pt-[20px] md:text-[1.5rem] md:text-blue-500"
             >
               {project.projectName}
             </a>
